@@ -4,8 +4,9 @@
 	muestras de temperatura y mostrar el promedio de las mismas en el monitor serial
 	de manera de evitar variaciones indeseables.
  
-
 */
+
+//Enlace al simulador: https://www.tinkercad.com/things/40ldhTSLQZr-laboratorio-3-programa-2-
 
 int SENSOR;		// variable almacena valor leido de entrada analogica A0
 float TEMPERATURA;	// valor de temperatura en grados centigrados
@@ -27,4 +28,5 @@ void loop(){
   }
   Serial.println(SUMA/5.0, 1);			// imprime en monitor serial valor promedio de
 						// las 5 lecturas de temperatura con un decimal
+
 }

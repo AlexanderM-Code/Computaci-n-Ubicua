@@ -3,9 +3,9 @@
 	Tercer programa que al presionarse el pulsador enciende LED por 5 segundos y luego
 	apaga solo.
 
-
 */
 
+//Enlace al simulador: https://www.tinkercad.com/things/fdRvRInnSUR-laboratorio-1-programa-3
 
 int PULSADOR = 2; 
 int LED=3; 
@@ -29,5 +29,6 @@ digitalWrite(LED, LOW); 		// apaga LED
 
 while(digitalRead(PULSADOR) == HIGH){ 	// espera como funcion antirebote simple
  }
+
 
 }

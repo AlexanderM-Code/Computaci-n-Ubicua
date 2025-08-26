@@ -1,5 +1,7 @@
 //Programa - Capitulo # 2 
 
+//Enlace al simulador: https://www.tinkercad.com/things/cYyP2rRWnsI-laboratorio-0
+
 void setup() { 
   pinMode(13, OUTPUT); // pin 13 como salida
 } 
@@ -9,4 +11,5 @@ void loop() {
   delay(3000);            // demora de 3 seg
   digitalWrite(13, LOW);  // pin 13 a nivel bajo (0) 
   delay(1500);            // demora de 8 seg
+
 }

@@ -3,9 +3,9 @@
 	Primer programa que permite al presionar un pulsador que encienda un led, al soltar el mismo
 	se apaga.
 
-
 */
 
+//Enlace al simulador: https://www.tinkercad.com/things/fTjgmyWP85D-laboratorio-1-programa-1-
 
 void setup() {
 
@@ -25,4 +25,5 @@ else
 	digitalWrite(3,LOW); 	// pulsador no presionado, apagar LED
 }
  
+
 }

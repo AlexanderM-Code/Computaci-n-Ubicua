@@ -3,9 +3,9 @@
 	Segundo programa que al presionar el pulsador mantiene encendido el led hasta que vuelva
 	a presionarse para apagarse.
 
-
 */
 
+//Enlace al simulador: https://www.tinkercad.com/things/eUZwfgAHyme-laboratorio-1-programa-2
 
 int PULSADOR = 2; 
 int LED=3; 
@@ -29,5 +29,6 @@ digitalWrite(LED, !ESTADO); 		// escribo en la salida el valor apuesto al leido 
 
 while(digitalRead(PULSADOR) == HIGH){ 	// espera como funcion antirebote simple
  }
+
 
 }

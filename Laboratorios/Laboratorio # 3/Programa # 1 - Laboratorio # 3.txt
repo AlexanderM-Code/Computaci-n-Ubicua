@@ -3,8 +3,9 @@
 	Programa que utiliza el sensor de temperatura analogico LM35 para mostrar
         la temperatura en grados centigrados mediante el monitor serial.
  
-
 */
+
+Enlace al simulador: https://www.tinkercad.com/things/dye3I4zzyhT-laboratorio-3-programa-1-
 
 int SENSOR;		// variable almacena valor leido de entrada analogica A0
 float TEMPERATURA;	// valor de temperatura en grados centigrados
@@ -21,4 +22,5 @@ void loop(){
   Serial.println(TEMPERATURA, 1);			// imprime en monitor serial valor
 							// de temperatura con un decimal
   delay(1000);						// demora de 1 seg. entre lecturas
+
 }

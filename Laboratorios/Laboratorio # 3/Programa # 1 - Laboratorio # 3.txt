@@ -5,7 +5,7 @@
  
 */
 
-Enlace al simulador: https://www.tinkercad.com/things/dye3I4zzyhT-laboratorio-3-programa-1-
+//Enlace al simulador: https://www.tinkercad.com/things/dye3I4zzyhT-laboratorio-3-programa-1-
 
 int SENSOR;		// variable almacena valor leido de entrada analogica A0
 float TEMPERATURA;	// valor de temperatura en grados centigrados
@@ -24,3 +24,4 @@ void loop(){
   delay(1000);						// demora de 1 seg. entre lecturas
 
 }
+
